@@ -90,7 +90,7 @@ export LD_LIBRARY_PATH=/app/.heroku/vendor/lib:$BUILD_DIR/.heroku/vendor/lib
 export PKG_CONFIG_PATH=/app/.heroku/vendor/lib/pkg-config:$BUILD_DIR/.heroku/vendor/lib/pkg-config
 # set terminal to UTF8 (otherwise `gem install foreman` fails)
 export LANG=en_CA.UTF-8
-mkdir $BUILD_DIR/.heroku/.ruby-gems
+# mkdir $BUILD_DIR/.heroku/.ruby-gems
 export PATH=$BUILD_DIR/.heroku/.ruby-gems:$PATH
 export GEM_HOME=$BUILD_DIR/.heroku/.ruby-gems
 export PATH=$PATH:$BUILD_DIR/.heroku/.ruby-gems/bin

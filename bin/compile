@@ -96,7 +96,7 @@ export GEM_HOME=$BUILD_DIR/.heroku/.ruby-gems
 export PATH=$PATH:$BUILD_DIR/.heroku/.ruby-gems/bin
 
 # install foreman
-gem install foreman
+#gem install foreman
 
 # Switch to the repo's context.
 cd $BUILD_DIR
